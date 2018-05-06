@@ -5,12 +5,9 @@ import {
   Link
 } from 'react-router-dom'
 
-import Home from './comps/home'
-import About from './comps/about'
-import Products from './comps/products'
-
-//import logo from './logo.svg';
-//import './App.css';
+import Home from './pages/home'
+import About from './pages/about'
+import Products from './pages/products'
 
 export default () => (
   <Router>
