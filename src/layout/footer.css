@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  align-item: center;
+  justify-content: center;
+  line-height: 30px;
+  padding: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  align-self: auto;
+}

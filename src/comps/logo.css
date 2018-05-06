@@ -1,0 +1,11 @@
+.nwmaker-logo {
+  height: 60px;
+}
+
+.nwmaker-logo img {
+  height: 60px;
+}
+
+.logo-imgsvg {
+  filter: invert(.0) sepia(1) saturate(10) hue-rotate(0deg);
+}

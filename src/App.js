@@ -9,6 +9,8 @@ import Home from './pages/home'
 import About from './pages/about'
 import Products from './pages/products'
 
+import Footer from './layout/footer'
+
 export default () => (
   <Router>
     <div>
@@ -23,6 +25,10 @@ export default () => (
       <Route exact path="/" component={Home}/>
       <Route path="/about" component={About}/>
       <Route path="/products" component={Products}/>
+      
+      <hr />
+      
+      <Footer />
     </div>
   </Router>
 )
