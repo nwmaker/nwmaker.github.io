@@ -5,8 +5,11 @@
   "homepage": "http://nwmaker.github.io",
   "dependencies": {
     "react": "^16.3.2",
+    "react-burger-menu": "^2.4.4",
     "react-dom": "^16.3.2",
+    "react-helmet": "^5.2.0",
     "react-router-dom": "^4.2.2",
+    "react-router-ga": "^1.0.0",
     "react-scripts": "1.1.4",
     "simple-flexbox": "^1.2.0"
   },
