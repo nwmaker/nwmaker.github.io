@@ -1,23 +1,49 @@
-nav {
-  background-color: #fff;
+.navigation {
   overflow:hidden;
   height: 20px;
 }
-          
-.active:after {
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  width: 100%;
+  width-margin: 10px;
+}
+
+/*
+.item .active:after {
   color: #f00102;
 }
           
-.active {
+.item .active {
   color: #f01122;
-  text-decoration: none;
 }
-          
+
+.item {
+  color: black;
+  text-decoration: none;
+}          
+
 .nav-link {
   text-decoration: none;
   padding: 20px;
 }
+*/
           
 a {
   color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.active > a {
+  color: #f01122;
 }

@@ -33,20 +33,32 @@ const initGA = (history) => {
 initGA(history);
 */
 
+const CustomMenuLink = ({ label, to, activeOnlyWhenExact }) => (
+  <Route
+    path={to}
+    exact={activeOnlyWhenExact}
+    children={({ match }) => (
+      <div className={match ? "item active" : "item"}>
+        <Link to={to}>{label}</Link>
+      </div>
+    )}
+  />
+)
+
 export default () => (
   <Router history={history}>
     <div>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/products">Products</Link></li>
-      </ul>
+      <div className='nav-container'>
+        <CustomMenuLink activeOnlyWhenExact={true} to="/" label="Home" />
+        <CustomMenuLink to="/products" label="Products" />
+        <CustomMenuLink to="/about" label="About" />
+      </div>
 
       <hr/>
 
       <Route exact path="/" component={Home}/>
-      <Route path="/about" component={About}/>
       <Route path="/products" component={Products}/>
+      <Route path="/about" component={About}/>
       
       <hr />
       

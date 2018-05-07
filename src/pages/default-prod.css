@@ -1,0 +1,15 @@
+.product-container {
+  width: 100%;
+  text-align: center;
+}
+        
+.product-header {
+  text-align: center;
+}
+        
+.product-image {
+  width: 800px;
+  height: 360px;
+  position: relative;
+  margin: 0 auto;
+}

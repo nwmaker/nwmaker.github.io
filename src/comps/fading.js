@@ -30,7 +30,7 @@ const messages = [
 export default () => (
   <div className='fading'>
     <div className='fade-header'>
-      <h1>Electronics Crafts</h1>
+      <h1>Electronic Craft</h1>
       <h2>Unique. Distinctive. Beautiful.</h2>
     </div>
     <Carousel images={images} messages={messages} />
