@@ -1,7 +1,8 @@
 import React from 'react'
+import FadingSlide from '../comps/fading'
 
 export default () => (
   <div>
-    <h2>Home</h2>
+    <FadingSlide />
   </div>
 )
