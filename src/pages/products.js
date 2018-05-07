@@ -20,7 +20,7 @@ export default ({ match }) => (
   <div className='products-container'>
     <Column flexGrow={1}>
       <Row horizontal='center'>
-        <h1>Electronic Craft</h1>
+        <h1>Electronics Crafts</h1>
       </Row>
       <Row horizontal='center'>
         <a href='https://www.tindie.com/stores/nwmaker/'>
@@ -40,13 +40,13 @@ export default ({ match }) => (
           <span>Beezy</span>
         </Column>
         <Column flexGrow={1} horizontal='center'>
-          <Link to={`${match.url}/bearable`}>
+          <Link to={`${match.url}/bear`}>
             <div>
-              <img alt='bearable'
+              <img alt='bear'
                 src={Bearp0} />
             </div>
           </Link>
-          <span>Bearable</span>
+          <span>Wearable Bear</span>
         </Column>
       </Row>
       <Row vertical='center'>
@@ -70,11 +70,11 @@ export default ({ match }) => (
         </Column>
       </Row>
     </Column>
-
+    
     <Route path={`${match.url}/beezy`} component={Beezy} />
     <Route path={`${match.url}/bearable`} component={Bear} />
     <Route path={`${match.url}/ursaminor`} component={Ursaminor} />
     <Route path={`${match.url}/smd0201`} component={Smd0201} />
-
+    
   </div>
 )
