@@ -1,6 +1,13 @@
 {
-  "main.css": "static/css/main.65027555.css",
-  "main.css.map": "static/css/main.65027555.css.map",
-  "main.js": "static/js/main.e14105d5.js",
-  "main.js.map": "static/js/main.e14105d5.js.map"
+  "main.css": "static/css/main.81bde79b.css",
+  "main.css.map": "static/css/main.81bde79b.css.map",
+  "main.js": "static/js/main.a7e78280.js",
+  "main.js.map": "static/js/main.a7e78280.js.map",
+  "static/media/bear-front.png": "static/media/bear-front.09fd1e17.png",
+  "static/media/beezy-front.png": "static/media/beezy-front.2cd89eb2.png",
+  "static/media/monarch-front.png": "static/media/monarch-front.30a89b4f.png",
+  "static/media/nwmaker.svg": "static/media/nwmaker.568757aa.svg",
+  "static/media/smd0201-front.png": "static/media/smd0201-front.a73326f4.png",
+  "static/media/snowflake-front.png": "static/media/snowflake-front.27eb9971.png",
+  "static/media/ursaminor-front.png": "static/media/ursaminor-front.50960a52.png"
 }
