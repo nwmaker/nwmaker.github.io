@@ -1,6 +1,12 @@
 .navigation {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #797979;
   overflow:hidden;
-  height: 20px;
+  height: 30px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1.5rem;
 }
 
 ul {
@@ -13,35 +19,26 @@ ul {
   flex-direction: row;
 }
 
+.nav .item {
+  display: inline-block;
+  padding: 10px 5px;
+  cursor: pointer;
+  background-color:#fff;
+  color:#7B8585;
+    
+  transition:0.3s;
+}
+
+.nav .item:hover {
+  background-color:#ddd;
+}
+
 .item {
-  width: 100%;
-  width-margin: 10px;
 }
 
-/*
-.item .active:after {
-  color: #f00102;
-}
-          
-.item .active {
-  color: #f01122;
-}
-
-.item {
-  color: black;
-  text-decoration: none;
-}          
-
-.nav-link {
-  text-decoration: none;
-  padding: 20px;
-}
-*/
-          
 a {
   color: black;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .active > a {

@@ -34,12 +34,12 @@ export default () => (
     <div>
     <Analytics id="UA-118045706-1">
       <div className='nav-container'>
-        <CustomMenuLink activeOnlyWhenExact={true} to="/" label="Home" />
-        <CustomMenuLink to="/products" label="Products" />
-        <CustomMenuLink to="/about" label="About" />
+        <div className='nav'>
+          <CustomMenuLink activeOnlyWhenExact={true} to="/" label="Home" />
+          <CustomMenuLink to="/products" label="Products" />
+          <CustomMenuLink to="/about" label="About" />
+        </div>
       </div>
-
-      <hr/>
 
       <Route exact path="/" component={Home}/>
       <Route path="/products" component={Products}/>
