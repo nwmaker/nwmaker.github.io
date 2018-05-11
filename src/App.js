@@ -45,8 +45,6 @@ export default () => (
       <Route path="/products" component={Products}/>
       <Route path="/about" component={About}/>
       
-      <hr />
-      
       <Footer />
     </Analytics>
     </div>
