@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-  Switch,
   Route,
   Link
 } from 'react-router-dom'
@@ -17,28 +16,7 @@ import Bearp0 from '../static/bear-p0.png'
 import Ursaminorp0 from '../static/ursaminor-p0.png'
 import Smd0201p0 from '../static/smd0201-p0.png'
 
-class Products extends React.Component {
-  previousLocation = this.props.location
-
-  componentWillUpdate(nextProps) {
-    const {location} = this.props;
-
-    if (nextProps.history.action !== 'POP' &&
-      (!location.state || !location.state.modal))
-    {
-      this.previousLocation = this.props.location
-    }
-  }
-
-  render() {
-    const { match, history } = this.props
-  
-    console.log('match:', match)
-    console.log('history:', history)
-    console.log('prev location:', this.previousLocation)
-    console.log('curr location:', this.props.location)
-
-  return (
+export default ({ match }) => (
   <div className='products-container'>
     <Column flexGrow={1}>
       <Row horizontal='center'>
@@ -106,9 +84,4 @@ class Products extends React.Component {
       <Route path={`${match.url}/smd0201`} component={Smd0201} />
     </div>
   </div>
-  )
-  }
-}
-
-export default Products
-
+)
