@@ -26,6 +26,7 @@ export default () => (
             <li>Educational kits</li>
             <li>Memorial kits</li>
             <li>Promotional kits</li>
+            <li>... ...</li>
           </ul>
           For us, electronics crafts are our media for creation and making.
         </div>
