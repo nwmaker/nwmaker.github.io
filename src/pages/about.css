@@ -1,0 +1,48 @@
+.about-container {
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+  display: flex;
+  flex-dirction: column;
+  flex-wrap: wrap;
+}
+
+.about-item {
+  flex: 1 1 30rem;
+  margin: 1rem auto;
+  overflow: hidden;
+}
+
+.about-item h2 {
+  text-align: center;
+}
+
+.about-item div {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+
+.about-kits {
+
+}
+
+.about-commissions {
+
+}
+
+.about-contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-item {
+  margin: 2px 5px 2px 5px;
+}
+
+.fab {
+  color: 0x444;
+}

@@ -8,7 +8,6 @@ import Beezy1b from '../static/beezy1b.png'
 
 export default () => (
   <div>
-    <hr />
     <div className='product-container'>
       <Column flexGrow={1}>
         <Row horizontal='center'>

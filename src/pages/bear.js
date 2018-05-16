@@ -8,7 +8,6 @@ import Bear1b from '../static/bear1b.png'
 
 export default () => (
   <div>
-    <hr />
     <div className='product-container'>
       <Column flexGrow={1}>
         <Row horizontal='center'>

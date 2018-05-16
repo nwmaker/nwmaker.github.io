@@ -7,7 +7,6 @@ import Ursaminor1a from '../static/ursaminor1a.png'
 
 export default () => (
   <div>
-    <hr />
     <div className='product-container'>
       <Column flexGrow={1}>
         <Row horizontal='center'>

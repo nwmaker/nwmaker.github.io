@@ -11,5 +11,11 @@ yarn add -D gh-pages
 
 Change the deploy script to use master and use src branch for source code.
 
+## major update
 
+```
+yarn add simple-flexbox
+yarn add font-awesome
+```
+Simpel-flexbox is not used.
 

@@ -8,7 +8,6 @@ import Smd02011b from '../static/smd02011b.png'
 
 export default () => (
   <div>
-    <hr />
     <div className='product-container'>
       <Column flexGrow={1}>
         <Row horizontal='center'>

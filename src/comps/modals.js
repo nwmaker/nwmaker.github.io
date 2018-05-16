@@ -1,9 +1,10 @@
 import React from 'react'
 import Modal from 'react-modal'
+//import './modals.css'
 
 Modal.setAppElement('#root')
 
-class Test extends React.Component {
+class Modals extends React.Component {
   constructor() {
     super()
 
@@ -26,15 +27,16 @@ class Test extends React.Component {
     const { Index, Photo, CompToShow } = this.props
 
     return (
-      <div key={Index} className='modals'>
-        <button onClick={this.handleOpenModal}>
-          <img src={Photo} alt='modal' />
-        </button>
-        <Modal 
-           isOpen={this.state.showModal}
-           contentLabel="Minimal Modal Example"
-        >
-          <button onClick={this.handleCloseModal}>Close Modal</button>
+      <div key={Index*10+1} className='modals'>
+        <div ky={Index*50+5} className='image-container'>
+          <input key={Index*20+2} type='image' src={Photo} alt='modal'
+            onClick={this.handleOpenModal} />
+        </div>
+        <Modal key={Index*30+3}
+          isOpen={this.state.showModal}
+          contentLabel="Modal Gallery">
+          <i key={Index*40+4} className='fa fa-close fa-2x' 
+            onClick={this.handleCloseModal}></i>
           <CompToShow />
         </Modal>
       </div>
@@ -42,4 +44,4 @@ class Test extends React.Component {
   }
 }
 
-export default Test
+export default Modals
