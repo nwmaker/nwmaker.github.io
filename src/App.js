@@ -11,6 +11,7 @@ import Analytics from 'react-router-ga'
 import Home from './pages/home'
 import About from './pages/about'
 import Products from './pages/products'
+//import Products from './pages/prodentry'
 
 import Footer from './layout/footer'
 import './App.css'
