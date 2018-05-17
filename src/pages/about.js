@@ -5,7 +5,7 @@ export default () => (
   <div className='about-container'>
     <div className='about-item'>
       <div className='about-kits'>
-        <h2>Bespoke Kits</h2>
+        <h2>Electronics Kits</h2>
         <div>
           All kits are available in different packages.
           <ul>
@@ -19,7 +19,7 @@ export default () => (
     </div>
     <div className='about-item'>
       <div className='about-commissions'>
-        <h2>Commissions</h2>
+        <h2>Custom Work</h2>
         <div>
           Our design is perfect for learning, exploration and fun. 
           <ul>
@@ -28,7 +28,7 @@ export default () => (
             <li>Promotional kits</li>
             <li>... ...</li>
           </ul>
-          For us, electronics, PCB, and code are our vehicles for creation and making.
+          For us, electronics and code are our media for creation and making.
         </div>
       </div>
     </div>
