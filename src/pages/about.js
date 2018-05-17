@@ -21,14 +21,14 @@ export default () => (
       <div className='about-commissions'>
         <h2>Commissions</h2>
         <div>
-          Our design is perfect for learning, memorial, trophies and fun. 
+          Our design is perfect for learning, exploration and fun. 
           <ul>
             <li>Educational kits</li>
             <li>Memorial kits</li>
             <li>Promotional kits</li>
             <li>... ...</li>
           </ul>
-          For us, electronics crafts are our media for creation and making.
+          For us, electronics, PCB, and code are our vehicles for creation and making.
         </div>
       </div>
     </div>
