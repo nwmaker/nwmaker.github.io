@@ -1,6 +1,9 @@
 # nwmaker.github.io
 
-## notes: the size of photos is 800x360
+## [notes] 
+
+the size of front photos is 800x360.
+the size of details is 400x300.
 
 ## setup with [CRA](https://github.com/facebookincubator/create-react-app)
 
