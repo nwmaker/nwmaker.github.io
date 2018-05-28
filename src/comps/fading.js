@@ -4,7 +4,8 @@ import './fading.css'
 
 import Beezy from '../static/beezy-front.png'
 import Smd0201 from '../static/smd0201-front.png'
-import Monarch from '../static/monarch-front.png'
+//import Monarch from '../static/monarch-front.png'
+import Wanderer from '../static/wanderer-front.png'
 import Ursaminor from '../static/ursaminor-front.png'
 import Bear from '../static/bear-front.png'
 import Snowflake from '../static/snowflake-front.png'
@@ -12,7 +13,7 @@ import Snowflake from '../static/snowflake-front.png'
 const images = [
   Beezy,
   Smd0201,
-  Monarch,
+  Wanderer,
   Ursaminor,
   Bear,
   Snowflake,

@@ -1,5 +1,7 @@
 # nwmaker.github.io
 
+## notes: the size of photos is 800x360
+
 ## setup with [CRA](https://github.com/facebookincubator/create-react-app)
 
 Modify the package.json to add homepage and deploy script.
