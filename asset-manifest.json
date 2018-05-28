@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.db3785a7.css",
   "main.css.map": "static/css/main.db3785a7.css.map",
-  "main.js": "static/js/main.954bc46a.js",
-  "main.js.map": "static/js/main.954bc46a.js.map",
+  "main.js": "static/js/main.a9244b86.js",
+  "main.js.map": "static/js/main.a9244b86.js.map",
   "static/media/bear-front.png": "static/media/bear-front.09fd1e17.png",
   "static/media/bear-p0.png": "static/media/bear-p0.e65e2e91.png",
   "static/media/bear1a.png": "static/media/bear1a.9b0d75ea.png",
@@ -16,7 +16,6 @@
   "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
   "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
   "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
-  "static/media/monarch-front.png": "static/media/monarch-front.30a89b4f.png",
   "static/media/nwmaker.svg": "static/media/nwmaker.568757aa.svg",
   "static/media/smd0201-front.png": "static/media/smd0201-front.a73326f4.png",
   "static/media/smd0201-p0.png": "static/media/smd0201-p0.ab25460c.png",
@@ -26,5 +25,10 @@
   "static/media/tindie-logo.png": "static/media/tindie-logo.6f9e3331.png",
   "static/media/ursaminor-front.png": "static/media/ursaminor-front.50960a52.png",
   "static/media/ursaminor-p0.png": "static/media/ursaminor-p0.5ae79513.png",
-  "static/media/ursaminor1a.png": "static/media/ursaminor1a.50960a52.png"
+  "static/media/ursaminor1a.png": "static/media/ursaminor1a.50960a52.png",
+  "static/media/wanderer-front.png": "static/media/wanderer-front.047a41c7.png",
+  "static/media/wanderer-p0.png": "static/media/wanderer-p0.b97e95cf.png",
+  "static/media/wanderer1a.png": "static/media/wanderer1a.7908c7b4.png",
+  "static/media/wanderer1b.png": "static/media/wanderer1b.16f68e23.png",
+  "static/media/wanderer1c.png": "static/media/wanderer1c.427a0d7a.png"
 }
