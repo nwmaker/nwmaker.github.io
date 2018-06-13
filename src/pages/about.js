@@ -5,7 +5,7 @@ export default () => (
   <div className='about-container'>
     <div className='about-item'>
       <div className='about-kits'>
-        <h2>Electronics Kits</h2>
+        <h2>Electronics Craft</h2>
         <div>
           All kits are available in different packages.
           <ul>

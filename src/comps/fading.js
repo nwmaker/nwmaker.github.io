@@ -8,7 +8,7 @@ import Smd0201 from '../static/smd0201-front.png'
 import Wanderer from '../static/wanderer-front.png'
 import Ursaminor from '../static/ursaminor-front.png'
 //import Bear from '../static/bear-front.png'
-import Owl from '../static/owl-front.png'
+import Owl from '../static/owl-front2.png'
 import Snowflake from '../static/snowflake-front.png'
 
 const images = [

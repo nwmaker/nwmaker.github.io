@@ -6,6 +6,7 @@ import Beezy from './beezy'
 //import Bear from './bear'
 import Ursaminor from './ursaminor'
 import Smd0201 from './smd0201'
+import Owl from './owl'
 
 import Tindie from '../static/tindie-logo.png'
 import Wandererp0 from '../static/wanderer-p0.png'
@@ -13,6 +14,7 @@ import Beezyp0 from '../static/beezy-p0.png'
 //import Bearp0 from '../static/bear-p0.png'
 import Ursaminorp0 from '../static/ursaminor-p0.png'
 import Smd0201p0 from '../static/smd0201-p0.png'
+import Owlp0 from '../static/owl-p0.png'
 
 import './products.css'
 
@@ -20,6 +22,7 @@ const photocomps = [
   [Wandererp0, Wanderer],
   [Beezyp0, Beezy],
   [Ursaminorp0, Ursaminor],
+  [Owlp0, Owl],
   [Smd0201p0, Smd0201],
 ]
 
