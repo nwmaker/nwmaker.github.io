@@ -34,6 +34,7 @@ export default () => (
     </div>
     <div className='about-item'>
       <div className='about-contacts'>
+        <h2>Contact us</h2>
         <h2>
         <a className='contact-item' href='https://twitter.com/nwmaker'><i class='fa fa-twitter fa-2x'></i></a>
         <a className='contact-item' href='mailto:makernw@gmail.com'><i class='fa fa-envelope fa-2x'></i></a>
