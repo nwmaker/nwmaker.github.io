@@ -6,17 +6,18 @@ import Beezy from '../static/beezy-front.png'
 import Smd0201 from '../static/smd0201-front.png'
 //import Monarch from '../static/monarch-front.png'
 import Wanderer from '../static/wanderer-front.png'
-import Ursaminor from '../static/ursaminor-front.png'
+//import Ursaminor from '../static/ursaminor-front.png'
 //import Bear from '../static/bear-front.png'
 import Owl from '../static/owl-front2.png'
 import Snowflake from '../static/snowflake-front.png'
+import Citrus0 from '../static/citrus0-front.png'
 
 const images = [
   Beezy,
   Smd0201,
   Wanderer,
-  Ursaminor,
   Owl,
+  Citrus0,
   Snowflake,
 ]
 
@@ -24,8 +25,8 @@ const messages = [
   'Curiosity',
   'Challenge',
   'Experience',
-  'Exploration',
   'Gift',
+  'Exploration',
   'Moment',
 ]
 

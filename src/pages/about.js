@@ -7,7 +7,7 @@ export default () => (
       <div className='about-kits'>
         <h2>Electronics Craft</h2>
         <div>
-          All kits are available in different packages.
+          All kits may be available in different packages.
           <ul>
             <li>Kit: for the experienced</li>
             <li>Half-assembled: for beginners</li>
@@ -21,14 +21,14 @@ export default () => (
       <div className='about-commissions'>
         <h2>Custom Work</h2>
         <div>
-          Our design is perfect for learning, exploration and fun. 
+          If you need some customization for your need, contact us. 
           <ul>
             <li>Educational kits</li>
-            <li>Memorial kits</li>
             <li>Promotional kits</li>
+            <li>Personalized gifts</li>
             <li>... ...</li>
           </ul>
-          For us, electronics and code are our media for creation and making.
+          Together we create a better experience and make it memorable.
         </div>
       </div>
     </div>
