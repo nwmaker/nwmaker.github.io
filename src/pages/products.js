@@ -30,7 +30,7 @@ const photocomps = [
 
 export default () => (
   <div className='products-container'>
-    <h1 className='products-heading'>Electronics Crafts</h1>
+    <h1 className='products-heading'>Electronics Crafts Together</h1>
     <div className='products-tindie'>
       <a href='https://www.tindie.com/stores/nwmaker/'>
         <img alt='tindie-store'
