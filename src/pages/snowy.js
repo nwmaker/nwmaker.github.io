@@ -23,19 +23,19 @@ export default () => (
           </a>
         </Row>
         <Row horizontal='center'>
-          <a href='https://www.tindie.com/products/nwmaker/SnowyOwl1/'>
+          <a href='https://www.tindie.com/products/nwmaker/snowyowl1/'>
             <img className='product-image'
               src={Wanderer1a} alt='snowy1a' />
           </a>
         </Row>
         <Row horizontal='center'>
-          <a href='https://www.tindie.com/products/nwmaker/SnowyTwin/'>
+          <a href='https://www.tindie.com/products/nwmaker/snowyowl2/'>
             <img className='product-image'
               src={Wanderer1b} alt='snowy1b' />
           </a>
         </Row>
         <Row horizontal='center'>
-          <a href='https://www.tindie.com/products/nwmaker/SnowOwl2/'>
+          <a href='https://www.tindie.com/products/nwmaker/snowytwin/'>
             <img className='product-image'
               src={Wanderer1c} alt='snowy1c' />
           </a>
