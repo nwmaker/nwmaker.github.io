@@ -11,10 +11,12 @@ import Wanderer from '../static/wanderer-front.png'
 import Owl from '../static/owl-front2.png'
 import Snowflake from '../static/snowflake-front.png'
 import Citrus0 from '../static/citrus0-front.png'
+import Snowy from '../static/snowy-front.png'
 
 const images = [
   Beezy,
   Smd0201,
+  Snowy,
   Wanderer,
   Owl,
   Citrus0,
@@ -24,6 +26,7 @@ const images = [
 const messages = [
   'Curiosity',
   'Challenge',
+  'Curiosity',
   'Experience',
   'Gift',
   'Exploration',
