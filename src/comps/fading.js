@@ -15,8 +15,8 @@ import Snowy from '../static/snowy-front.png'
 
 const images = [
   Beezy,
-  Smd0201,
   Snowy,
+  Smd0201,
   Wanderer,
   Owl,
   Citrus0,
@@ -25,8 +25,8 @@ const images = [
 
 const messages = [
   'Curiosity',
+  'Awesome',
   'Challenge',
-  'Curiosity',
   'Experience',
   'Gift',
   'Exploration',
