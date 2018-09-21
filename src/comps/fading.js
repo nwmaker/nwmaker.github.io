@@ -12,6 +12,7 @@ import Owl from '../static/owl-front2.png'
 import Snowflake from '../static/snowflake-front.png'
 import Citrus0 from '../static/citrus0-front.png'
 import Snowy from '../static/snowy-front.png'
+import Badgefox from '../static/badgefox-front.png'
 
 const images = [
   Beezy,
@@ -20,6 +21,7 @@ const images = [
   Wanderer,
   Owl,
   Citrus0,
+  Badgefox,
   Snowflake,
 ]
 
@@ -30,6 +32,7 @@ const messages = [
   'Experience',
   'Gift',
   'Exploration',
+  'Detail',
   'Moment',
 ]
 
