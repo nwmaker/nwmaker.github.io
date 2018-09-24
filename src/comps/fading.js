@@ -27,7 +27,7 @@ const images = [
 
 const messages = [
   'Curiosity',
-  'Awesome',
+  'Present',
   'Challenge',
   'Experience',
   'Gift',
